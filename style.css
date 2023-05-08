@@ -214,7 +214,7 @@ header {
     cursor: pointer;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 375px) {
     body {
         position: relative;
         width: 375px;
