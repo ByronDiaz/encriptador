@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="reset.css">
+
+        <title>ENCRIPTADOR</title>
+    </head>
+    <body>
+        <main>
+            <script src="javascript.js"></script>
+        <header>
+
+            <h1><img src="imagenesEncrip/Logo.png"></h1>
+
+        </header>
+
+        
+        <form action="">
+            <div>
+                   
+                <textarea id="texto" placeholder="Ingrese el texto aqui" class="textoAqui"></textarea>
+            </div>
+            <div>
+                <img class="soloMin"src="imagenesEncrip/Frame 1.png">
+                <input type="button" value="Encriptar" onclick="encriptar()" class="btnEncrip">
+                <input type="button" value="Desencriptar" onclick="desencriptar()" class="btnDesEncrip">
+                <h1 class="datosPersonales">Hecho por: Byron Diaz</h1>
+                <h1 class="hastack">#challengeonecodificador5</h1>
+                <h1 class="pais">El salvador</h1>
+            </div>
+  
+            <div class="textoVacio" id="textoVacio"></div>
+            <textarea id="textoRespuesta" class="texto"></textarea>
+            
+            <input type="button" value="Copiar" onclick="copiar()"
+            class="btnCopiar" id="botonCopy"> 
+        </form>
+        
+        <div id="muñeco"class="muñeco">
+            <img src="imagenesEncrip/Muñeco.png">
+        </div>
+
+        <div id="ningunTexto"class="ningunTexto">
+            <img src="imagenesEncrip/Frame 5.png">
+        </div>
+        </main>
+        
+    </body>
+</html>
